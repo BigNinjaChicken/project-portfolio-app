@@ -76,9 +76,7 @@
 		<div class="absolute bottom-4 left-0 w-full flex justify-center gap-4">
 			{#each logos as _, index}
 				<div class="w-[30px] h-[30px] grid place-items-center">
-					<div
-						class="w-full h-[3px] bg-black rounded-[.25rem] bg-surface-500"
-					/>
+					<div class="w-full h-[3px] bg-black rounded-[.25rem] bg-surface-500" />
 				</div>
 			{/each}
 		</div>
@@ -91,11 +89,10 @@
 	</div>
 
 	<div class="container mx-auto py-10">
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5">
+		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
 			<a href="/portfolio" class="block card card-hover shadow-lg h-min">
-				<div class="flex items-center">
-					<img class="w-1/2 m-5 pl-3" src="phone-screen.png" alt="..." />
-					<div class="w-1/2 p-2 pl-0">
+				<div class="flex flex-col sm:flex-row items-center">
+					<div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
 						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
 							AlchyBox - A Drinking Party Experience
 						</h1>
@@ -108,13 +105,17 @@
 							<small>Current</small>
 						</footer>
 					</div>
+					<img
+						class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
+						src="phone-screen.png"
+						alt="..."
+					/>
 				</div>
 			</a>
 
 			<a href="/portfolio" class="block card card-hover shadow-lg h-min">
-				<div class="flex items-center">
-					<img class="w-1/2 mx-4 pl-3" src="express-polar-thin.png" alt="..." />
-					<div class="w-1/2 p-2 pl-0">
+				<div class="flex flex-col sm:flex-row items-center">
+					<div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
 						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
 							Express: Polar
 						</h1>
@@ -128,6 +129,11 @@
 							<small>May, 2023</small>
 						</footer>
 					</div>
+					<img
+						class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
+						src="phone-screen.png"
+						alt="..."
+					/>
 				</div>
 			</a>
 		</div>

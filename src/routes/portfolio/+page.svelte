@@ -45,7 +45,8 @@
 	];
 </script>
 
-<main class="pt-28">
+<main class="pt-16">
+    <p class="text-center text-surface-400 text-sm m-10">Certain projects cannot be shown due to my commitment to uphold non-disclosure agreements (NDAs).</p>
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
 			<div class="grid gap-10 items-start">

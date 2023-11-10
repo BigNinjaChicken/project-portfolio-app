@@ -125,7 +125,7 @@
 		</div>
 		<div class="flex justify-center">
 			<a href="/portfolio" class="mt-6 p-3 btn variant-ghost-success">
-				<a href="./portfolio"><p class="px-10 text-lg">See All Projects</p></a>
+				<p class="px-10 text-lg">See All Projects</p>
 			</a>
 		</div>
 	</div>
@@ -170,8 +170,8 @@
 		</div>
 		<!-- Centered Button linking to your portfolio -->
 		<div class="flex justify-center">
-			<a href="/portfolio" class="mt-4 p-4 btn variant-ghost-success">
-				<a href="./contacts"><p class="px-7 text-lg">My Resume</p></a>
+			<a href="/contacts" class="mt-4 p-4 btn variant-ghost-success">
+				<p class="px-7 text-lg">My Resume</p>
 			</a>
 		</div>
 	</div>

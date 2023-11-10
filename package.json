@@ -42,6 +42,7 @@
 		"embla-carousel-autoplay": "^8.0.0-rc14",
 		"embla-carousel-svelte": "^8.0.0-rc14",
 		"flowbite": "^2.0.0",
+		"svelte-pdf": "^1.0.20",
 		"tw-elements": "^1.0.0"
 	}
 }

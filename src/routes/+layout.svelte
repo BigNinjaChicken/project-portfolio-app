@@ -47,7 +47,7 @@
 				</button>
 			</div>
 			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-				<a href="./"
+				<a href="/"
 					><div class="flex flex-shrink-0 items-center">
 						<img
 							class="h-8 w-autotransition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
@@ -60,22 +60,22 @@
 					<div class="flex space-x-4">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a
-							href="./"
+							href="/"
 							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 							>Dashboard</a
 						>
 						<a
-							href="./#recent-projects"
+							href="/#recent-projects"
 							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 							>Featured Projects</a
 						>
 						<a
-							href="./#about-me"
+							href="/#about-me"
 							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 							>About Me</a
 						>
 						<a
-							href="./contacts"
+							href="/contacts"
 							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 							>Contacts</a
 						>
@@ -118,31 +118,31 @@
 			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 			<a
 				on:click={toggleMobileMenu}
-				href="./"
+				href="/"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Dashboard</a
 			>
 			<a
 				on:click={toggleMobileMenu}
-				href="./#recent-projects"
+				href="/#recent-projects"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Featured Projects</a
 			>
 			<a
 				on:click={toggleMobileMenu}
-				href="./#about-me"
+				href="/#about-me"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>About Me</a
 			>
 			<a
 				on:click={toggleMobileMenu}
-				href="./contacts"
+				href="/contacts"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Contacts</a
 			>
 			<a
 				on:click={toggleMobileMenu}
-				href="./portfolio"
+				href="/portfolio"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 			>
 				<span class="w-full">🚀 My Programming Projects</span>

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 	import Autoplay from 'embla-carousel-autoplay';
-	import ExpressPolar from '$lib/portfolio/express-polar.png';
 
 	const autoplayOptions = {
 		delay: 3500,
@@ -74,6 +73,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="absolute bottom-4 left-0 w-full flex justify-center gap-4">
+			{#each logos as _, index}
+				<div class="w-[30px] h-[30px] grid place-items-center">
+					<div
+						class="w-full h-[3px] bg-black rounded-[.25rem] bg-surface-500"
+					/>
+				</div>
+			{/each}
+		</div>
 	</div>
 
 	<div class="container mx-auto p-10">
@@ -84,7 +92,7 @@
 
 	<div class="container mx-auto py-10">
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5">
-			<a href="/" class="block card card-hover shadow-lg h-min">
+			<a href="/portfolio/feature-1" class="block card card-hover shadow-lg h-min">
 				<div class="flex items-center">
 					<img class="w-1/2 m-5 pl-3" src="phone-screen.png" alt="..." />
 					<div class="w-1/2 p-2 pl-0">
@@ -103,7 +111,7 @@
 				</div>
 			</a>
 
-			<a href="/" class="block card card-hover shadow-lg h-min">
+			<a href="/portfolio/feature-2" class="block card card-hover shadow-lg h-min">
 				<div class="flex items-center">
 					<img class="w-1/2 mx-4 pl-3" src="express-polar-thin.png" alt="..." />
 					<div class="w-1/2 p-2 pl-0">

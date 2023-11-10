@@ -1,6 +1,7 @@
 <script lang="ts">
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 	import Autoplay from 'embla-carousel-autoplay';
+	import ExpressPolar from '$lib/portfolio/express-polar.png';
 
 	const autoplayOptions = {
 		delay: 3500,
@@ -13,7 +14,7 @@
 	let logos = [
 		'nitric_concepts_white_oktwof.png',
 		'Nationwide-logo.png',
-		'miami-logo-horizontal-stacked.png',
+		'miami-logo-horizontal-stacked.png'
 	];
 </script>
 
@@ -81,57 +82,44 @@
 		</h1>
 	</div>
 
-	<div class="container mx-auto px-4 py-10">
-		<div
-			class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5 place-content-center"
-		>
-			<a href="/" class="block card card-hover bg-white rounded-lg shadow-lg">
-				<div class="grid grid-cols-2 grid-flow-col">
-					<div>
-						<h1 class="text-primary-500 text-3xl tracking-small text-center pt-4 card-header">
-							Recent Projects
+	<div class="container mx-auto py-10">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5">
+			<a href="/" class="block card card-hover shadow-lg h-min">
+				<div class="flex items-center">
+					<img class="w-1/2 m-5 pl-3" src="phone-screen.png" alt="..." />
+					<div class="w-1/2 p-2 pl-0">
+						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
+							AlchyBox - A Drinking Party Experience
 						</h1>
-						<p class="text-secondary-200 text-1xl tracking-smallpt-4 card-header">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing
-							elit ut. Feugiat nisl pretium fusce id velit ut tortor. Sit amet risus nullam eget.
-							Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Et egestas
-							quis ipsum suspendisse ultrices gravida. Sodales ut eu sem integer vitae justo eget
-							magna fermentum. Et odio pellentesque diam volutpat commodo sed egestas egestas
-							fringilla. Senectus et netus et malesuada fames. Eros in cursus turpis massa tincidunt
-							dui ut ornare. Amet aliquam id diam maecenas ultricies mi eget. Id semper risus in
-							hendrerit gravida. Iaculis urna id volutpat lacus laoreet non curabitur gravida.
+						<p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
+							A party game developed in UE5, designed for 2 to 15 players, allows them to use their
+							phones as controllers. Players collaborate to create ridiculous stories while
+							challenging friends to take shots for multipliers.
 						</p>
-						<footer class="p-4 flex justify-start items-center space-x-4">
+						<footer class="p-4 flex justify-center items-center space-x-4">
 							<small>Current</small>
 						</footer>
 					</div>
-					<img class="justify-end rounded-r-md" src="phone-screen.png" alt="..." />
 				</div>
 			</a>
 
-			<a href="/" class="block card card-hover bg-white rounded-lg shadow-lg">
-				<div class="grid grid-cols-2 grid-flow-col">
-					<div>
-						<h1 class="text-primary-500 text-3xl tracking-small text-center pt-4 card-header">
-							Recent Projects
+			<a href="/" class="block card card-hover shadow-lg h-min">
+				<div class="flex items-center">
+					<img class="w-1/2 mx-4 pl-3" src="express-polar-thin.png" alt="..." />
+					<div class="w-1/2 p-2 pl-0">
+						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
+							Express: Polar
 						</h1>
-						<p class="text-secondary-200 text-1xl tracking-smallpt-4 card-header">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing
-							elit ut. Feugiat nisl pretium fusce id velit ut tortor. Sit amet risus nullam eget.
-							Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Et egestas
-							quis ipsum suspendisse ultrices gravida. Sodales ut eu sem integer vitae justo eget
-							magna fermentum. Et odio pellentesque diam volutpat commodo sed egestas egestas
-							fringilla. Senectus et netus et malesuada fames. Eros in cursus turpis massa tincidunt
-							dui ut ornare. Amet aliquam id diam maecenas ultricies mi eget. Id semper risus in
-							hendrerit gravida. Iaculis urna id volutpat lacus laoreet non curabitur gravida.
+						<p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
+							I was the first-place winner in the MU Design Competition and my project was featured
+							in the Miami Game Design Senior Project Fair. It's a UE5 multiplayer game created with
+							C++ where players speedrun through a randomly generated series of minigames while
+							being pursued by a crazed conductor.
 						</p>
-						<footer class="p-4 flex justify-start items-center space-x-4">
-							<small>Current</small>
+						<footer class="p-4 flex justify-center items-center space-x-4">
+							<small>May, 2023</small>
 						</footer>
 					</div>
-					<img class="justify-center rounded-r-md" src="phone-screen.png" alt="..." />
 				</div>
 			</a>
 		</div>
@@ -192,40 +180,13 @@
 		<div class="container mx-auto md:w-2/3">
 			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center">
 				{#each logos as logo (logo)}
-				  <div class="p-4 flex justify-center items-center">
-					<img src={logo} alt="Logo" class="max-h-64 w-auto mx-auto" />
-				  </div>
+					<div class="p-4 flex justify-center items-center">
+						<img src={logo} alt="Logo" class="max-h-64 w-auto mx-auto" />
+					</div>
 				{/each}
-			  </div>
+			</div>
 		</div>
 	</div>
-	
-	  
-
-	<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-		<div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-				>2023 <a href="https://flowbite.com/" class="hover:underline">Frazier Kyle's Portfolio</a>.
-				All Rights Reserved.
-			</span>
-			<ul
-				class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
-			>
-				<li>
-					<a href="/" class="mr-4 hover:underline md:mr-6">About</a>
-				</li>
-				<li>
-					<a href="/" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-				</li>
-				<li>
-					<a href="/" class="mr-4 hover:underline md:mr-6">Licensing</a>
-				</li>
-				<li>
-					<a href="/" class="hover:underline">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</footer>
 </main>
 
 <style>

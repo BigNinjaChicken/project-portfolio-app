@@ -51,7 +51,7 @@
 					><div class="flex flex-shrink-0 items-center">
 						<img
 							class="h-8 w-autotransition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-							src="frazier-logo-purple.png"
+							src="/frazier-logo-purple.png"
 							alt="Frazier Kyle"
 						/>
 					</div></a

@@ -37,7 +37,7 @@
 						>
 					</p>
 					<p class="text-lg">
-						<a href="https://github.com/BigNinjaChicken/project-portfolio-app" class="text-blue-300 hover:underline"
+						<a href="https://github.com/BigNinjaChicken" class="text-blue-300 hover:underline"
 							>GitHub Link 💾</a
 						>
 					</p>

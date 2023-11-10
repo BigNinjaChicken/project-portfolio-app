@@ -52,14 +52,16 @@
 	</div>
 
 	<div class="py-4">
-		<div class="container mx-auto text-center drop-shadow-lg">
-			<a href={Resume} target="_blank" type="button" class="btn variant-filled drop-shadow-lg">
-				<p class="mx-10 p-3 text-2xl">Resume</p>
+        <div class="container mx-auto text-center drop-shadow-lg">
+            <a href={Resume} target="_blank" type="button" class="btn variant-filled drop-shadow-lg">
+                <p class="mx-10 p-3 text-2xl">Resume</p>
             </a>
-
-			<div class="mt-4">
-				<svelte:component this={PdfViewer} url={Resume} />
-			</div>
-		</div>
-	</div>
+    
+            <!-- Hide PDF viewer on small screens (e.g., screens smaller than md) -->
+            <div class="mt-4 hidden md:block">
+                <svelte:component this={PdfViewer} url={Resume} />
+            </div>
+        </div>
+    </div>
+    
 </main>

@@ -5,7 +5,7 @@
 	export let project: any;
 </script>
 
-<a href={project.href || './contacts'} class="card card-hover shadow-lg">
+<a href={project.href || './contacts'} class="card card-hover shadow-lg my-auto">
 	<img class="w-full rounded-t-lg" src={project.image} alt={project.title} />
 
 	<div class="px-6 py-4 text-left">

@@ -25,7 +25,7 @@
 				<div class="relative h-screen m-3">
 					<img
 						class="absolute inset-0 h-full w-full object-cover rounded-3xl"
-						src="dino.jpg"
+						src="stat-gpt.jpg"
 						alt="..."
 					/>
 					<div
@@ -43,7 +43,7 @@
 				<div class="relative h-screen m-3">
 					<img
 						class="absolute inset-0 h-full w-full object-cover rounded-3xl"
-						src="dino.jpg"
+						src="action-slapstick.png"
 						alt="..."
 					/>
 					<div

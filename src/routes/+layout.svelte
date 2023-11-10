@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
-	import "../app.css";
+	import '../app.css';
 	import { onMount, onDestroy } from 'svelte';
 
 	let mobileMenuOpen = false; // Initialize menu state
@@ -117,26 +117,31 @@
 		<div class="space-y-1 px-2 pb-3 pt-2">
 			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 			<a
+				on:click={toggleMobileMenu}
 				href="./"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Dashboard</a
 			>
 			<a
+				on:click={toggleMobileMenu}
 				href="./#recent-projects"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Featured Projects</a
 			>
 			<a
+				on:click={toggleMobileMenu}
 				href="./#about-me"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>About Me</a
 			>
 			<a
+				on:click={toggleMobileMenu}
 				href="./contacts"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Contacts</a
 			>
 			<a
+				on:click={toggleMobileMenu}
 				href="./portfolio"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 			>
@@ -161,13 +166,21 @@
 				<a href="/contacts" class="mr-4 hover:underline md:mr-6">Contacts</a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/in/frazierkyle/" class="mr-4 hover:underline md:mr-6">LinkedIn</a>
+				<a href="https://www.linkedin.com/in/frazierkyle/" class="mr-4 hover:underline md:mr-6"
+					>LinkedIn</a
+				>
 			</li>
 			<li>
-				<a href="https://github.com/BigNinjaChicken/project-portfolio-app" class="mr-4 hover:underline md:mr-6">GitHub Portfolio Repo</a>
+				<a
+					href="https://github.com/BigNinjaChicken/project-portfolio-app"
+					class="mr-4 hover:underline md:mr-6">GitHub Portfolio Repo</a
+				>
 			</li>
 			<li>
-				<a href="https://github.com/BigNinjaChicken/project-portfolio-app/blob/main/LICENSE" class="hover:underline">License</a>
+				<a
+					href="https://github.com/BigNinjaChicken/project-portfolio-app/blob/main/LICENSE"
+					class="hover:underline">License</a
+				>
 			</li>
 		</ul>
 	</div>

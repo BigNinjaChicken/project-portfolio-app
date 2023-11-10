@@ -131,7 +131,7 @@
 					</div>
 					<img
 						class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
-						src="phone-screen.png"
+						src="express-polar-thin.png"
 						alt="..."
 					/>
 				</div>

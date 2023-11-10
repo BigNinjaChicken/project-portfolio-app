@@ -1,7 +1,7 @@
 <main class="pt-16">
 	<div class="container mx-auto p-10">
 		<h1 class="text-white text-5xl tracking-small text-center" id="recent-projects">
-			AlchyBox - A Drinking Party Experience
+			AlchyBox - A Drinking Party Game
 		</h1>
 	</div>
 
@@ -47,8 +47,17 @@
 
 	<section class="text-gray-600 body-font bg-surface-800">
 		<div class="container mx-auto flex px-5 md:px-40 py-12 flex-row items-center">
+            <div class="w-2/5">
+				<a href="/" target="_blank">
+					<img
+						class="object-cover object-center rounded"
+						alt="tip_book"
+						src="https://dummyimage.com/720x600"
+					/>
+				</a>
+			</div>
 			<div
-				class="lg:flex-grow md:w-1/2 lg:pr-10 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+				class="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 			>
 				<h1
 					class="title-font sm:text-5xl text-3xl mb-4 font-bold text-gray-900 tracking-normal whitespace-nowrap"
@@ -62,15 +71,6 @@
 						tempore quibusdam accusamus neque cum id modi esse.
 					</span>
 				</p>
-			</div>
-			<div class="w-2/5">
-				<a href="/" target="_blank">
-					<img
-						class="object-cover object-center rounded"
-						alt="tip_book"
-						src="https://dummyimage.com/720x600"
-					/>
-				</a>
 			</div>
 		</div>
 	</section>

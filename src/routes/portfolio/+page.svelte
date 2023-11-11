@@ -94,7 +94,7 @@
 			date: '2023',
 			location: 'College/MGDC',
 			description:
-				'Immerse yourself in an oceanic adventure with Cooptapus, the exciting new game where you and your friends play as a giant squid on a mission to destroy ships. Enjoy the thrill of casual party play while unleashing your inner sea monster in my solo developed Steam release.',
+				'Immerse yourself in an oceanic adventure with Cooptapus, the exciting new game where you and your friends play as a giant squid on a mission to destroy ships. Enjoy the thrill of casual party play while unleashing your inner sea monster in my solo developed game pending Steam release.',
 			image: Cooptapus
 		},
 		{

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 	import Autoplay from 'embla-carousel-autoplay';
+	import FeatureCard_1 from './Feature-Card-1.svelte';
+	import FeatureCard_2 from './Feature-Card-2.svelte';
 
 	const autoplayOptions = {
 		delay: 3500,
@@ -90,52 +92,10 @@
 
 	<div class="container mx-auto py-10">
 		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-			<a href="/portfolio" class="block card card-hover shadow-lg h-min">
-				<div class="flex flex-col sm:flex-row items-center">
-					<div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
-						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
-							AlchyBox - A Drinking Party Experience
-						</h1>
-						<p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
-							A party game developed in UE5, designed for 2 to 15 players, allows them to use their
-							phones as controllers. Players collaborate to create ridiculous stories while
-							challenging friends to take shots for multipliers.
-						</p>
-						<footer class="p-4 flex justify-center items-center space-x-4">
-							<small>Current</small>
-						</footer>
-					</div>
-					<img
-						class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
-						src="phone-screen.png"
-						alt="..."
-					/>
-				</div>
-			</a>
-
-			<a href="/portfolio" class="block card card-hover shadow-lg h-min">
-				<div class="flex flex-col sm:flex-row items-center">
-					<div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
-						<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
-							Express: Polar
-						</h1>
-						<p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
-							I was the first-place winner in the MU Design Competition and my project was featured
-							in the Miami Game Design Senior Project Fair. It's a UE5 multiplayer game created with
-							C++ where players speedrun through a randomly generated series of minigames while
-							being pursued by a crazed conductor.
-						</p>
-						<footer class="p-4 flex justify-center items-center space-x-4">
-							<small>May, 2023</small>
-						</footer>
-					</div>
-					<img
-						class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
-						src="express-polar-thin.png"
-						alt="..."
-					/>
-				</div>
-			</a>
+			
+		<FeatureCard_1 />
+		<FeatureCard_2 />
+			
 		</div>
 		<div class="flex justify-center">
 			<a href="/portfolio" class="mt-6 p-3 btn variant-ghost-success">

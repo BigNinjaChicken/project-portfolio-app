@@ -11,7 +11,7 @@
 	import type { TableSource } from '@skeletonlabs/skeleton';
 
 	const sourceData = [
-		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.3' },
+		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
 		{ position: 2, catagory: 'Number of Players', desc: '2-15 Players' },
 		{ position: 3, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
 		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
@@ -28,14 +28,17 @@
 </script>
 
 <main class="pt-16">
-	<div class="container mx-auto p-10">
+	<div class="container mx-auto p-10 pb-2">
 		<h1 class="text-white text-5xl tracking-small text-center" id="recent-projects">
-			AlchyBox - A Drinking Party Game
+			<span class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">AlchyBox</span>
 		</h1>
+        <h2 class="text-surface-400 text-3xl tracking-small text-center" id="recent-projects">
+			A Drinking Party Game.
+		</h2>
 	</div>
 
-	<div class="container mx-auto p-5 md:px-80 items-center">
-		<h2 class="h2 p-4 text-center">Game Specifications</h2>
+	<div class="container mx-auto p-5 pb-10 md:px-80 items-center">
+		<h3 class="h3 p-2">Game Specifications</h3>
 		<Table source={tableSimple} />
 	</div>
 
@@ -76,7 +79,7 @@
 		</div>
 	</section>
 
-	<div class="container mx-auto flex px-5 md:px-40 py-12 flex-row items-center">
+	<div class="container mx-auto flex px-5 md:px-40 py-4 flex-row items-center">
 		<p class="mt-5 mb-8 text-center">
 			<span class="text-yellow-600 font-bold text-xl" />
 		</p>
@@ -115,7 +118,7 @@
 		</div>
 	</section>
 
-	<div class="container mx-auto flex px-5 md:px-40 py-12 flex-row items-center">
+	<div class="container mx-auto flex px-5 md:px-40 py-4 flex-row items-center">
 		<p class="mt-5 mb-8 text-center">
 			<span class="text-yellow-600 font-bold text-xl" />
 		</p>

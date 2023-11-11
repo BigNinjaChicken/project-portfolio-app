@@ -125,9 +125,7 @@
 					lead Miami University's Game Design Club, mentoring the future of game design.
 				</p>
 				<p class="mb-4 text-lg font-semibold">
-					I am seeking computer science and game development opportunities for after college. I'm
-					very proud to have worked several on excellent games with incredible people, including
-					AlchyBox, Express Polar, Midnight Heist, MGDC Games.
+					I am seeking computer science and game development opportunities for after college.
 				</p>
 			</div>
 

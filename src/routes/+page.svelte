@@ -5,7 +5,7 @@
 	import FeatureCard_2 from './Feature-Card-2.svelte';
 
 	const autoplayOptions = {
-		delay: 3500,
+		delay: 3000,
 		playOnInit: true
 	};
 

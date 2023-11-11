@@ -51,9 +51,9 @@
 	</div>
 
 	<section class="text-gray-600 body-font bg-surface-800">
-		<div class="container mx-auto flex px-5 py-12 flex-row items-center">
+		<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
 			<div
-				class="lg:flex-grow md:w-1/2 lg:pl-10 lg:pr-12 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+				class="md:flex-grow md:w-1/2 lg:pl-10 lg:pr-12 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 			>
 				<h1 class="title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
 					Bringing a Train to Life
@@ -68,7 +68,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="w-2/5">
+			<div class="w-full md:w-2/5 mt-0 sm:mt- md:mt-0">
 				<img class="object-cover object-center rounded" alt="tip_book" src={Express} />
 			</div>
 		</div>
@@ -81,14 +81,14 @@
 	</div>
 
 	<section class="text-gray-600 body-font bg-surface-800">
-		<div class="container mx-auto flex px-5 py-12 flex-row items-center">
+		<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
 			<div class="w-3/5">
 				<Youtube id={videoId2} />
 			</div>
 			<div
 				class="lg:flex-grow md:w-1/2 lg:pl-10 lg:pr-12 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
 			>
-				<h1 class="title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
+				<h1 class="mt-2 title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
 					How do I plan randomness?
 				</h1>
 				<div class="mt-5 mb-8">

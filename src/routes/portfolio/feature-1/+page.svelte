@@ -1,11 +1,11 @@
 <script lang="ts">
 	import FeatureCard_2 from '../../Feature-Card-2.svelte';
 
-	import Prog1 from '$lib/portfolio/feature-1/prog1.jpg';
-	import Prog2 from '$lib/portfolio/feature-1/prog2.png';
-	import Prog3 from '$lib/portfolio/feature-1/prog3.png';
-	import Prog4 from '$lib/portfolio/feature-1/prog4.png';
-	import Prog5 from '$lib/portfolio/feature-1/prog5.png';
+	import Prog1 from '$lib/portfolio/feature-1/image-2.png';
+	import Prog2 from '$lib/portfolio/feature-1/image-1.png';
+	import Prog3 from '$lib/portfolio/feature-1/image-4.png';
+	import Prog4 from '$lib/portfolio/feature-1/image-3.png';
+	import Prog5 from '$lib/portfolio/feature-1/image-5.png';
 
 	import { Table, tableMapperValues } from '@skeletonlabs/skeleton';
 	import type { TableSource } from '@skeletonlabs/skeleton';
@@ -32,7 +32,7 @@
 		<h1 class="text-white text-5xl tracking-small text-center" id="recent-projects">
 			<span
 				class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone"
-				>AlchyBox</span
+				>Rounds On Me</span
 			>
 		</h1>
 		<h2 class="text-surface-400 text-3xl tracking-small text-center" id="recent-projects">

@@ -2,7 +2,7 @@
     <div class="flex flex-col sm:flex-row items-center">
         <div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
             <h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
-                AlchyBox - A Drinking Party Experience
+                Rounds On Me - A Drinking Party Experience
             </h1>
             <p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
                 A party game developed in UE5, designed for 2 to 15 players, allows them to use their
@@ -15,7 +15,7 @@
         </div>
         <img
             class="w-full sm:w-1/2 m-5 pl-3 order-1 sm:order-2"
-            src="/phone-screen.png"
+            src="/expo-me.webp"
             alt="..."
         />
     </div>

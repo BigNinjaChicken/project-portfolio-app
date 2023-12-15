@@ -48,6 +48,7 @@
 			role: 'Programming and Design Lead',
 			date: 'October 28, 2022',
 			location: 'College/MGDC',
+			href: "https://bigninjachicken.itch.io/no-mind",
 			description:
 				"As a leader in the Miami Game Design Club, I created an immersive interrogation-style game where players use persuasion tactics to uncover the truth. With engaging dialogue and high-pressure gameplay, players will feel like they're in the hot seat.",
 			image: NoMind
@@ -57,6 +58,7 @@
 			role: 'Programming and Design Lead',
 			date: 'September 22, 2022',
 			location: 'College/MGDC',
+			href: "https://bigninjachicken.itch.io/no-head",
 			description:
 				'This is a project I led at Miami Game Design Club. I created a unique gameplay experience where players navigate a zombie apocalypse without a body. We crafted a thrilling puzzle-solving game where the player needs to manage either carrying around their own head or a weapon to kill robot zombies.',
 			image: NoHead
@@ -66,6 +68,7 @@
 			role: 'Programming and Design Lead',
 			date: 'February 2022',
 			location: 'College/MGDC',
+			href: "https://bigninjachicken.itch.io/mechaball",
 			description:
 				'Hotel Outage challenges players to keep guests satisfied while navigating a haunted hotel with dangerous ghosts, while Mechaball puts players in the cockpit of a mech for a futuristic game of soccer, designed specifically for virtual reality in Unreal Engine 5.',
 			image: HotelAndMecha
@@ -75,6 +78,7 @@
 			role: '3D Modeling and Design Co-Lead',
 			date: 'Global Game Jam, "Duality", June 21, 2022',
 			location: 'College/MGDC',
+			href: "https://thesmashers.itch.io/slapstick",
 			description:
 				'In this fast-paced and hilarious game, players use their left hand to slap opponents and their right hand to fling a sticky hand and grapple onto objects or even the enemies.',
 			image: SlapStick
@@ -84,6 +88,7 @@
 			role: '3D Modeling and Design Co-Lead',
 			date: 'Area of Effect Game Jam, "Signs of Life", September 26, 2021',
 			location: 'College/MGDC',
+			href: "https://thesmashers.itch.io/wind-up",
 			description:
 				'In this charming puzzle game, you play as a wind-up mouse with a magical ability to bring other toys to life just by touching them. Guide the mouse through various levels as you bring the other toys to life and use their unique abilities to solve puzzles and progress through the game. This project was placed on the podium with the creativity award.',
 			image: Windup
@@ -102,6 +107,7 @@
 			role: 'Programming and Design Lead',
 			date: 'May 19, 2020',
 			location: 'Nitric Concepts - Microsoft Partnership Program',
+			href: "https://www.minecraft.net/en-us/marketplace/pdp?id=3d7e5c02-37a7-4105-99c7-2fe12436b78e",
 			description:
 				'Play with over 27 courses while you travel the world and uncover new secrets! What will you find in this unforgettable adventure through time and space? Welcome to your Putt-Putt City.',
 			image: PuttPutt
@@ -111,6 +117,7 @@
 			role: 'Designer and 3D Modeling',
 			date: 'August 20, 2019',
 			location: 'Nitric Concepts - Microsoft Partnership Program',
+			href: "https://www.minecraft.net/en-us/marketplace/pdp?id=138b5797-9d67-4412-9d02-c33a71bd20b3",
 			description:
 				'A new pizza shop has opened up in town! Role-play as a pizza chef or as a pizza. Craft furniture and decorate your house or explore and make your own adventure!',
 			image: Pizza
@@ -120,6 +127,7 @@
 			role: 'Programming and 3D Modeling',
 			date: 'August 13, 2019',
 			location: 'Nitric Concepts - Microsoft Partnership Program',
+			href: "https://www.minecraft.net/en-us/marketplace/pdp?id=49dd60d0-517a-4349-ae23-0ee5796202d1",
 			description:
 				'Own every building and become the best person in the city of Mineland. The future is in reach with Business Tycoon!',
 			image: Tycoon
@@ -129,6 +137,7 @@
 			role: 'Programming and 3D Modeling',
 			date: 'August 6, 2019',
 			location: 'Nitric Concepts - Microsoft Partnership Program',
+			href: "https://www.minecraft.net/en-us/marketplace/pdp?id=e45aee86-2407-48f0-8cb1-98448b1fefba",
 			description:
 				'Welcome to the Hide and Seek Resort! Play survival with the custom mobs or play a game of hide & seek with friends. Ride boats down the slippery iced mountains or discover the many sneaky hiding places in the cabin!',
 			image: HideAndSeek
@@ -138,6 +147,7 @@
 			role: 'Designer and 3D Modeling',
 			date: 'April 16, 2019',
 			location: 'Nitric Concepts - Microsoft Partnership Program',
+			href: 'https://www.minecraft.net/en-us/marketplace/pdp?id=9ab1ffea-4433-47ef-965f-b6ff182532ae',
 			description:
 				"Pet City is the ideal place to raise your new pets! Take it to the park, an aquarium, or just around town! Live your pet's dream in Pet City!",
 			image: PetCity
@@ -147,6 +157,7 @@
 			role: 'Project Lead, 3D Modeling, Gameplay Design',
 			date: 'Sep 26, 2020',
 			location: "Minecraft Realm's Minigame",
+			href: "https://youtu.be/Wry8LcepWBU?si=7skUhuR2QyG21nEw",
 			description:
 				"Join your friends on a heist to steal treasures from the wealthy or play as a cop and hunt down the thieves. As the project's lead 3D modeler and gameplay designer, I oversaw the development of this exciting multiplayer game.",
 			image: MidnightHeist
@@ -156,6 +167,7 @@
 			role: '3D Modeling, Design, Co-Project Lead',
 			date: 'June 6, 2019',
 			location: "Minecraft Realm's Minigame",
+			href: "https://archive.crowdford.com/maps/bolt",
 			description:
 				'In this fast-paced bow game, players must shoot their opponents to achieve a range of objectives across various game modes and maps. I was a co-lead on this project, contributing my skills in 3D modeling and design to help bring Bolt to life.',
 			image: Bolt
@@ -165,6 +177,7 @@
 			role: 'Design and 3D Modeling',
 			date: 'Feb 23, 2018',
 			location: "Minecraft Realm's Minigame",
+			href: "https://www.youtube.com/watch?v=scNoeeoZaZo",
 			description:
 				"This Minecraft adaptation of the classic game Bomberman features unique twists such as power-ups and reward-based progression. As a designer and 3D modeler on the project, I helped craft the game's look and feel, contributing to a fun and engaging player experience.",
 			image: ShortFuse

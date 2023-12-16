@@ -1,4 +1,4 @@
-<a href="/portfolio/feature-1" class="block card card-hover shadow-lg h-min">
+<a href="/portfolio/feature-1" class="block card card-hover shadow-lg h-min shadow-blue-500/50">
     <div class="flex flex-col sm:flex-row items-center">
         <div class="w-full sm:w-1/2 p-2 pl-0 order-2 sm:order-1">
             <h1 class="text-primary-500 text-3xl tracking-small text-center card-header">

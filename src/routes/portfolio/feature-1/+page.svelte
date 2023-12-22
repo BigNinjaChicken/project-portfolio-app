@@ -48,7 +48,7 @@
 		<Table source={tableSimple} />
 	</div>
 
-	<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
+	<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center" id="demo">
 		<div>
 			<h1 class="title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
 				Game Demo Video

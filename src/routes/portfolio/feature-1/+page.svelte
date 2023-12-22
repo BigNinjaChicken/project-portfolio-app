@@ -210,7 +210,7 @@
 						</a>
 					</p>
 					<p class="text-surface-100 text-xl">
-						<a href="https://github.com/BigNinjaChicken/PartyGameOne" class="hover:text-blue-600 visited:text-purple-300 ...">
+						<a href="https://github.com/BigNinjaChicken/party-game-one" class="hover:text-blue-600 visited:text-purple-300 ...">
 							Web App Repo
 						</a>
 					</p>

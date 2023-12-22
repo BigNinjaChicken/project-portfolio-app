@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Youtube from 'svelte-youtube-embed';
 	import FeatureCard_2 from '../../Feature-Card-2.svelte';
 
 	import Prog1 from '$lib/portfolio/feature-1/image-2.png';
@@ -10,11 +11,13 @@
 	import { Table, tableMapperValues } from '@skeletonlabs/skeleton';
 	import type { TableSource } from '@skeletonlabs/skeleton';
 
+	const demoVideo: string = 'v5IXmLyw68g';
+
 	const sourceData = [
 		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
 		{ position: 2, catagory: 'Number of Players', desc: '2-15 Players' },
 		{ position: 3, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
-		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
+		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' },
 	];
 
 	const tableSimple: TableSource = {
@@ -43,6 +46,15 @@
 	<div class="container mx-auto p-5 pb-10 md:px-80 items-center">
 		<h3 class="h3 p-2">Game Specifications</h3>
 		<Table source={tableSimple} />
+	</div>
+
+	<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
+		<div>
+			<h1 class="title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
+				Game Demo Video
+			</h1>
+			<Youtube id={demoVideo} />
+		</div>
 	</div>
 
 	<section class="text-gray-600 body-font bg-surface-800">
@@ -183,6 +195,26 @@
 			</div>
 			<div class="w-full md:w-3/5 mt-8 md:mt-0 mx-auto">
 				<img class="object-cover object-center rounded" alt="..." src={Prog4} />
+			</div>
+			<div
+				class="w-full mt-10 md:pl-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto"
+			>
+				<div class="mt-5 mb-8 text-xl">
+					<h2 class="h2 text-surface-100 text-bold">GitHub Repositories</h2>
+					<p class="text-surface-100 text-xl font-bold">
+						Rounds On Me Related:
+					</p>
+					<p class="text-surface-100 text-xl">
+						<a href="https://github.com/BigNinjaChicken/PartyGameOne" class="hover:text-blue-600 visited:text-purple-300 ...">
+							Unreal Engine Game Repo
+						</a>
+					</p>
+					<p class="text-surface-100 text-xl">
+						<a href="https://github.com/BigNinjaChicken/PartyGameOne" class="hover:text-blue-600 visited:text-purple-300 ...">
+							Web App Repo
+						</a>
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>

@@ -17,7 +17,7 @@
 		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
 		{ position: 2, catagory: 'Number of Players', desc: '2-15 Players' },
 		{ position: 3, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
-		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' },
+		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
 	];
 
 	const tableSimple: TableSource = {
@@ -48,11 +48,18 @@
 		<Table source={tableSimple} />
 	</div>
 
-	<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center" id="demo">
+	<div
+		class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center"
+		id="demo"
+	>
 		<div>
-			<h1 class="title-font sm:text-5xl text-3xl mb-4 font-bold text-surface-50">
+			<h1 class="title-font sm:text-5xl text-3xl mb-2 font-bold text-surface-50">
 				Game Demo Video
 			</h1>
+			<p class="text-sm text-surface-300 mb-2">
+				This gameplay preview video includes explicit language (Suitable for audiences 18 and
+				older).
+			</p>
 			<Youtube id={demoVideo} />
 		</div>
 	</div>
@@ -103,7 +110,7 @@
 	<section class="text-gray-600 body-font bg-surface-800">
 		<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
 			<div class="w-full md:w-2/5 mt-8 md:mt-0">
-				<img class="object-cover object-center rounded " alt="tip_book" src={Prog1} />
+				<img class="object-cover object-center rounded" alt="tip_book" src={Prog1} />
 			</div>
 			<div
 				class="mt-2 md:flex-grow md:w-1/2 lg:pl-10 lg:pr-12 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
@@ -201,16 +208,20 @@
 			>
 				<div class="mt-5 mb-8 text-xl">
 					<h2 class="h2 text-surface-100 text-bold">GitHub Repositories</h2>
-					<p class="text-surface-100 text-xl font-bold">
-						Rounds On Me Related:
-					</p>
+					<p class="text-surface-100 text-xl font-bold">Rounds On Me Related:</p>
 					<p class="text-surface-100 text-xl">
-						<a href="https://github.com/BigNinjaChicken/PartyGameOne" class="hover:text-blue-600 visited:text-purple-300 ...">
+						<a
+							href="https://github.com/BigNinjaChicken/PartyGameOne"
+							class="hover:text-blue-600 visited:text-purple-300 ..."
+						>
 							Unreal Engine Game Repo
 						</a>
 					</p>
 					<p class="text-surface-100 text-xl">
-						<a href="https://github.com/BigNinjaChicken/party-game-one" class="hover:text-blue-600 visited:text-purple-300 ...">
+						<a
+							href="https://github.com/BigNinjaChicken/party-game-one"
+							class="hover:text-blue-600 visited:text-purple-300 ..."
+						>
 							Web App Repo
 						</a>
 					</p>

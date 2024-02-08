@@ -21,10 +21,19 @@
     import ShortFuse from '$lib/portfolio/shortfuse.jpg';
 	import RoundsLogo from '$lib/portfolio/rounds-logo.png';
 	import Site from '$lib/portfolio/this-site.png';
-    
-
+	import Laughter from '$lib/portfolio/laughter-main.png';
+	
 	// Define an array of project data
 	let projects = [
+		{
+			title: 'Pursuit Of Laughter',
+			role: 'Project Lead And Programmer',
+			date: '2024',
+			location: 'College/MGDC',
+            href: "/portfolio/feature-3",
+			description: 'A multiplayer first-person rogue-lite about pleasing the The Jester God by defeating hordes of enemies in the pursuit of laughter. Players must navigate a treacherous, ever-changing world with a blend of skill, strategy, and humor, striving not only to survive but to thrive in the chaos orchestrated by the Jester God.',
+			image: Laughter
+		},
 		{
 			title: 'Rounds On Me',
 			role: 'Solo Developer',

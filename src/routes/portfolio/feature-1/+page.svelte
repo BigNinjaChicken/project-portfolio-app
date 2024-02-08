@@ -11,13 +11,15 @@
 	import { Table, tableMapperValues } from '@skeletonlabs/skeleton';
 	import type { TableSource } from '@skeletonlabs/skeleton';
 
-	const demoVideo: string = 'v5IXmLyw68g';
+	const demoVideo1: string = 'RG8Sua8vprQ';
+	const demoVideo2: string = 'v5IXmLyw68g';
 
 	const sourceData = [
-		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
-		{ position: 2, catagory: 'Number of Players', desc: '2-15 Players' },
-		{ position: 3, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
-		{ position: 4, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
+		{ position: 1, catagory: 'Itch.io Page', desc: '<a href="https://bigninjachicken.itch.io/rounds-on-me" class="btn bg-gradient-to-br variant-gradient-secondary-tertiary" target="_blank">Itch Store Site</a>' },
+		{ position: 2, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
+		{ position: 3, catagory: 'Number of Players', desc: '2-15 Players' },
+		{ position: 4, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
+		{ position: 5, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
 	];
 
 	const tableSimple: TableSource = {
@@ -54,15 +56,32 @@
 	>
 		<div>
 			<h1 class="title-font sm:text-5xl text-3xl mb-2 font-bold text-surface-50">
-				Game Demo Video
+				Rounds On Me Short Trailer
+			</h1>
+			<p class="text-sm text-surface-300 mb-2">This is a gameplay demo video.</p>
+			<Youtube id={demoVideo1} />
+		</div>
+	</div>
+
+	<div
+		class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center"
+		id="demo"
+	>
+		<div>
+			<h1 class="title-font sm:text-5xl text-3xl mb-2 font-bold text-surface-50">
+				Full Game Demo Video
 			</h1>
 			<p class="text-sm text-surface-300 mb-2">
 				This gameplay preview video includes explicit language (Suitable for audiences 18 and
 				older).
 			</p>
-			<Youtube id={demoVideo} />
+			<Youtube id={demoVideo2} />
 		</div>
 	</div>
+
+	<h1 class="title-font sm:text-4xl text-3xl mb-5 font-bold text-surface-50 text-center">
+		- Experience Breakdown -
+	</h1>
 
 	<section class="text-gray-600 body-font bg-surface-800">
 		<div class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center">
@@ -74,24 +93,23 @@
 				</h1>
 				<div class="mt-5 mb-8 text-lg">
 					<p class="text-surface-100">
-						The essence of a successful party game lies in its accessibility, ensuring that even
-						those not well-versed in technology can easily engage and receive confirmation that
-						they're on the right track.
+						In crafting a dynamic party game, accessibility is key. It's about making sure everyone,
+						regardless of their tech-savviness, can jump right in and feel confident.
 					</p>
 					<p class="text-surface-100 mt-8">
-						To address this, I implemented a solution within Unreal Engine 5 (UE5) that enables
-						seamless web connections, akin to how a website communicates with a server. When a new
-						lobby is created in UE5, it automatically establishes a Websocket connection to my
-						server, allowing anyone using the web application version to join in. These lobbies
-						operate asynchronously, facilitating multiple concurrent games, and mitigating the
-						impact of errors, should they occur, as they are isolated to individual lobbies.
+						To achieve this, I devised a solution using Unreal Engine 5 (UE5) that seamlessly
+						connects to the web. Imagine it like a website talking to a server. With my setup, when
+						a new game lobby is created in UE5, it automatically links up with my server through
+						Websockets. This means anyone using the web version can easily join in. These lobbies
+						operate independently, allowing for multiple games to run at once without one affecting
+						the other, even if errors occur.
 					</p>
 					<p class="text-surface-100 mt-8">
-						I've leveraged a carefully chosen tech stack designed for efficiency, incorporating
-						parallel rendering in Svelte, and optimized coding practices that prioritize real-time
-						data transmission. This setup enables instantaneous feedback to players for every action
-						they take, enhancing the overall gaming experience while ensuring that less experienced
-						players receive prompt feedback on their actions.
+						I've carefully selected a tech stack focused on efficiency. By integrating parallel
+						rendering in Svelte and employing optimized coding techniques, I ensure real-time data
+						transmission. This means players get instant feedback for every move they make,
+						heightening their gaming experience and providing timely guidance, particularly for
+						newcomers.
 					</p>
 				</div>
 			</div>
@@ -120,20 +138,17 @@
 				</h1>
 				<div class="mt-5 mb-8">
 					<p class="text-surface-100 text-lg">
-						In the early stages of development, I randomly selected a player from the bottom of the
-						leaderboard to take a shot as a sort of penalty for not winning the previous rounds.
-						However, this idea had its drawbacks. In most party games, drinking is often a
-						consequence of losing a round or a way to hinder your performance when you're already
-						falling behind. I decided to turn this concept on its head.
+						In the early development phase, I experimented with a unique twist on party game
+						dynamics. Rather than penalizing the lowest-ranked player with a shot, as is common, I
+						flipped the script.
 					</p>
 					<p class="text-surface-100 text-lg mt-8">
-						To achieve this, I allowed players to choose one of their competitors to take a shot,
-						but in return, the selected player would receive a point multiplier for the next round.
-						This encourages a bit of competitiveness among friends, keeping the party lively and
-						transforming the act of taking a drink into a beneficial mechanic for players who were
-						"unfortunate" enough to be chosen by their friends. This resulted in both parties being
-						satisfied—the player who took a shot received a multiplier, and the person who made the
-						choice had some mischievous fun among friends.
+						Instead, I introduced a system where players could nominate a competitor to take a shot.
+						In exchange, the selected player would gain a point multiplier for the next round. This
+						added a layer of friendly competition, injecting energy into the party atmosphere.
+						Taking a drink became a strategic move, benefiting players who found themselves in the
+						hot seat. The result? Both parties were satisfied—the shot-taker received a boost, while
+						the chooser enjoyed some mischievous camaraderie among friends.
 					</p>
 				</div>
 			</div>
@@ -203,8 +218,13 @@
 			<div class="w-full md:w-3/5 mt-8 md:mt-0 mx-auto">
 				<img class="object-cover object-center rounded" alt="..." src={Prog4} />
 			</div>
+		</div>
+	</section>
+
+	<div class="container mx-auto md:flex-row px-5 md:px-40 py-5 items-center">
+		<div class="card">
 			<div
-				class="w-full mt-10 md:pl-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto"
+				class="w-full mt-10 md:pl-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto py-5"
 			>
 				<div class="mt-5 mb-8 text-xl">
 					<h2 class="h2 text-surface-100 text-bold">GitHub Repositories</h2>
@@ -213,6 +233,7 @@
 						<a
 							href="https://github.com/BigNinjaChicken/PartyGameOne"
 							class="hover:text-blue-600 visited:text-purple-300 ..."
+							target="_blank"
 						>
 							Unreal Engine Game Repo
 						</a>
@@ -221,6 +242,7 @@
 						<a
 							href="https://github.com/BigNinjaChicken/party-game-one"
 							class="hover:text-blue-600 visited:text-purple-300 ..."
+							target="_blank"
 						>
 							Web App Repo
 						</a>
@@ -228,7 +250,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 	<div class="container mx-auto p-10">
 		<h1 class="text-white text-4xl tracking-small text-center" id="recent-projects">
@@ -237,7 +259,7 @@
 	</div>
 
 	<div class="container mx-auto py-10">
-		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-5 flex">
+		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-5">
 			<div class="md:px-40"><FeatureCard_2 /></div>
 		</div>
 		<div class="flex justify-center">

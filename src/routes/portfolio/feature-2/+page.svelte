@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FeatureCard_1 from '../../Feature-Card-1.svelte';
+	import FeatureCard_3 from '../../Feature-Card-3.svelte';
 	import Youtube from 'svelte-youtube-embed';
 	import Express from '$lib/portfolio/express-polar.png';
 	import Train1 from '$lib/portfolio/feature-2/train-1.png';
@@ -10,6 +10,7 @@
 
 	const videoId1: string = '5zOFjNZDToA';
 	const videoId2: string = '2dG6JJ-lnZM';
+	const demoVideo1: string = 'W1c0M_Db2-U';
 
 	const sourceData = [
 		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.1 (UE5)' },
@@ -48,6 +49,19 @@
 	<div class="container mx-auto p-5 pb-10 md:px-80 items-center">
 		<h3 class="h3 p-2">Game Specifications</h3>
 		<Table source={tableSimple} />
+	</div>
+
+	<div
+		class="container mx-auto flex flex-col px-5 md:px-40 py-12 md:flex-row items-center"
+		id="demo"
+	>
+		<div>
+			<h1 class="title-font sm:text-5xl text-3xl mb-2 font-bold text-surface-50">
+				Express: Polar Gameplay Trailer
+			</h1>
+			<p class="text-sm text-surface-300 mb-2">This is a gameplay demo video.</p>
+			<Youtube id={demoVideo1} />
+		</div>
 	</div>
 
 	<section class="text-gray-600 body-font bg-surface-800">
@@ -191,8 +205,8 @@
 	</div>
 
 	<div class="container mx-auto py-10">
-		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-5 flex">
-			<div class="md:px-40"><FeatureCard_1 /></div>
+		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-5">
+			<div class="md:px-40"><FeatureCard_3 /></div>
 		</div>
 		<div class="flex justify-center">
 			<a href="/portfolio" class="mt-6 p-3 btn variant-ghost-success">

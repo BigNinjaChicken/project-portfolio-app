@@ -90,6 +90,9 @@
 						strengthens your expanding arsenal of items, enhancing your abilities and preparing you
 						for the challenges ahead.
 					</p>
+					<p class="text-surface-100 mt-8 text-sm italic">
+						Began as a game jam (hackathon) game and continued improving the experience afterwards.
+					</p>
 				</div>
 			</div>
 			<div class="w-full md:w-2/5 mt-0 sm:mt- md:mt-0">

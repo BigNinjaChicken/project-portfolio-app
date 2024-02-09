@@ -211,7 +211,7 @@
 				class="w-full mt-10 md:pl-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto py-5"
 			>
 				<div class="mt-5 mb-8 text-xl">
-					<h2 class="h2 text-surface-100 text-bold">GitHub Repositorie</h2>
+					<h2 class="h2 text-surface-100 text-bold">GitHub Repository</h2>
 					<p class="text-surface-100 text-xl">
 						<a
 							href="https://github.com/BigNinjaChicken/ProjectCompany"

@@ -77,7 +77,7 @@
 						<a
 							href="/contacts"
 							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-							>Contacts</a
+							>Contacts / Resume</a
 						>
 					</div>
 				</div>
@@ -138,7 +138,7 @@
 				on:click={toggleMobileMenu}
 				href="/contacts"
 				class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-				>Contacts</a
+				>Contacts / Resume</a
 			>
 			<a
 				on:click={toggleMobileMenu}
@@ -163,7 +163,7 @@
 			class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
 		>
 			<li>
-				<a href="/contacts" class="mr-4 hover:underline md:mr-6">Contacts</a>
+				<a href="/contacts" class="mr-4 hover:underline md:mr-6">Contacts / Resume</a>
 			</li>
 			<li>
 				<a href="https://www.linkedin.com/in/frazierkyle/" class="mr-4 hover:underline md:mr-6"

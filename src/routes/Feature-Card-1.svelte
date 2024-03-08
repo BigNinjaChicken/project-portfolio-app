@@ -4,7 +4,8 @@
             <h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
                 Rounds On Me - A Drinking Party Experience
             </h1>
-            <p class="text-secondary-200 text-lg tracking-small pt-4 card-header">
+            <h2 class="text-secondary-400 card-header">Solo Developer</h2>
+            <p class="text-secondary-200 text-lg tracking-small pt-1 card-header">
                 A party game developed in UE5, designed for 2 to 15 players, allows them to use their
                 phones as controllers. Players collaborate to create ridiculous stories while
                 challenging friends to take shots for multipliers.

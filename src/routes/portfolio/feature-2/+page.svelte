@@ -13,14 +13,15 @@
 	const demoVideo1: string = 'W1c0M_Db2-U';
 
 	const sourceData = [
-		{ position: 1, catagory: 'Game Engine', desc: 'Unreal Engine 5.1 (UE5)' },
-		{ position: 2, catagory: 'Number of Players', desc: '1-2 Player(s)' },
+		{ position: 1, catagory: 'My Role', desc: 'Solo Developer' },
+		{ position: 2, catagory: 'Game Engine', desc: 'Unreal Engine 5.1 (UE5)' },
+		{ position: 3, catagory: 'Number of Players', desc: '1-2 Player(s)' },
 		{
-			position: 3,
+			position: 4,
 			catagory: 'Genre',
 			desc: 'Speed Based, Intense Rythem Game, Multiplayer, Minigame'
 		},
-		{ position: 4, catagory: 'Online Subsystem', desc: 'Epic Online Services (EOS)' }
+		{ position: 5, catagory: 'Online Subsystem', desc: 'Epic Online Services (EOS)' }
 	];
 
 	const tableSimple: TableSource = {

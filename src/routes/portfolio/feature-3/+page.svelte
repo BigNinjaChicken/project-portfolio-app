@@ -14,18 +14,19 @@
 
 	const sourceData = [
 		{
-			position: 1,
+			position: 2,
 			catagory: 'Itch.io Page',
 			desc: '<a href="https://bigninjachicken.itch.io/pursuit-of-laughter" class="btn bg-gradient-to-br variant-gradient-secondary-tertiary" target="_blank">Itch Store Site</a>'
 		},
-		{ position: 2, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
-		{ position: 3, catagory: 'Number of Players', desc: '1-15 Player(s)' },
+		{ position: 3, catagory: 'My Role', desc: 'Lead Developer' },
+		{ position: 4, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
+		{ position: 5, catagory: 'Number of Players', desc: '1-15 Player(s)' },
 		{
-			position: 4,
+			position: 6,
 			catagory: 'Genre',
 			desc: 'Rouge-Like, Story Game, Multiplayer'
 		},
-		{ position: 5, catagory: 'Online Subsystem', desc: 'Steam' }
+		{ position: 7, catagory: 'Online Subsystem', desc: 'Steam' }
 	];
 
 	const tableSimple: TableSource = {

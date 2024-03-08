@@ -16,10 +16,11 @@
 
 	const sourceData = [
 		{ position: 1, catagory: 'Itch.io Page', desc: '<a href="https://bigninjachicken.itch.io/rounds-on-me" class="btn bg-gradient-to-br variant-gradient-secondary-tertiary" target="_blank">Itch Store Site</a>' },
-		{ position: 2, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
-		{ position: 3, catagory: 'Number of Players', desc: '2-15 Players' },
-		{ position: 4, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
-		{ position: 5, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
+		{ position: 2, catagory: 'My Role', desc: 'Solo Developer' },
+		{ position: 3, catagory: 'Game Engine', desc: 'Unreal Engine 5.3 (UE5)' },
+		{ position: 4, catagory: 'Number of Players', desc: '2-15 Players' },
+		{ position: 5, catagory: 'Genre', desc: 'Casual, Party Game, Multiplayer' },
+		{ position: 6, catagory: 'Web App', desc: 'SvelteKit hosted on Render' }
 	];
 
 	const tableSimple: TableSource = {

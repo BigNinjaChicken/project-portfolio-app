@@ -130,27 +130,6 @@
 		</div>
 	</section>
 
-	<div class="container mx-auto md:flex-row px-5 md:px-40 py-5 items-center">
-		<div class="card">
-			<div
-				class="w-full mt-10 md:pl-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto py-5"
-			>
-				<div class="mt-5 mb-8 text-xl">
-					<h2 class="h2 text-surface-100 text-bold">GitHub Repository</h2>
-					<p class="text-surface-100 text-xl">
-						<a
-							href="https://github.com/BigNinjaChicken/ProjectCompany"
-							class="hover:text-blue-600 visited:text-purple-300 ..."
-							target="_blank"
-						>
-							Unreal Engine Game Repo
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="container mx-auto p-10">
 		<h1 class="text-white text-4xl tracking-small text-center" id="recent-projects">
 			Check Out My Other Projects...

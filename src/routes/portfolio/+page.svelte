@@ -17,7 +17,6 @@
     import SlapStick from '$lib/portfolio/slapstick.png';
     import Tycoon from '$lib/portfolio/tycoon.jpg';
     import Windup from '$lib/portfolio/windup.png';
-    import AlchyBox from '$lib/portfolio/alchy-box.png';
     import ShortFuse from '$lib/portfolio/shortfuse.jpg';
 	import RoundsLogo from '$lib/portfolio/rounds-logo.png';
 	import Site from '$lib/portfolio/this-site.png';

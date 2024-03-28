@@ -32,7 +32,7 @@
 			date: 'March 14, 2024',
 			location: 'College/MGDC',
             href: "/portfolio/feature-4",
-			description: 'Learn more about the Imersive XR set that I worked on for the a live audiance at the Grand Opening of the Miami Univeristy McVey Data Science Building.',
+			description: 'Learn more about the immersive XR set that I created for the live audience at the Grand Opening of the Miami University McVey Data Science Building.',
 			image: xr4
 		},
 		{

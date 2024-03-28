@@ -11,6 +11,7 @@
 	import type { TableSource } from '@skeletonlabs/skeleton';
 
 	const videoId1: string = 't75QsXLaVzo';
+	const videoId2: string = '1bjRaZUfqD0';
 
 	const sourceData = [
 		{
@@ -63,10 +64,15 @@
 	>
 		<div>
 			<h1 class="title-font sm:text-5xl text-3xl mb-2 font-bold text-surface-50">
-				Pursuit Of Laughter Short Trailer
+				Pursuit Of Laughter Trailers
 			</h1>
-			<p class="text-sm text-surface-300 mb-2">This is a gameplay demo video.</p>
-			<Youtube id={videoId1} />
+			<p class="text-surface-300 mb-2">Trailer Video.</p>
+			<Youtube id={videoId2} />
+
+			<div class="mt-10">
+				<p class="text-surface-300 mb-2">Gameplay Demo Video.</p>
+				<Youtube id={videoId1} />
+			</div>
 		</div>
 	</div>
 

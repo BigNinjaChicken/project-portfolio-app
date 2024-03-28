@@ -22,9 +22,19 @@
 	import RoundsLogo from '$lib/portfolio/rounds-logo.png';
 	import Site from '$lib/portfolio/this-site.png';
 	import Laughter from '$lib/portfolio/laughter-main.png';
+	import xr4 from '$lib/portfolio/xr4.jpg';
 	
 	// Define an array of project data
 	let projects = [
+		{
+			title: 'McVey Datascience Building XR Opening',
+			role: 'Unreal Engineer & XR Live Crew',
+			date: 'March 14, 2024',
+			location: 'College/MGDC',
+            href: "/portfolio/feature-4",
+			description: 'Learn more about the Imersive XR set that I worked on for the a live audiance at the Grand Opening of the Miami Univeristy McVey Data Science Building.',
+			image: xr4
+		},
 		{
 			title: 'Pursuit Of Laughter',
 			role: 'Project Lead And Programmer',

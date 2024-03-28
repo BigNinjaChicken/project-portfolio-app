@@ -4,7 +4,7 @@
 			<h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
 				Pursuit Of Laughter
 			</h1>
-			<h2 class="text-secondary-400 card-header md:text-center">Lead Developer</h2>
+			<h2 class="text-secondary-400 card-header text-center">Lead Developer</h2>
 			<p class="text-secondary-200 text-lg tracking-small pt-1 card-header md:text-center">
 				A multiplayer first-person rogue-lite about pleasing the The Jester God by defeating hordes
 				of enemies in the pursuit of laughter. Players must navigate a treacherous, ever-changing

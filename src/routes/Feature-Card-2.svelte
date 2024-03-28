@@ -4,7 +4,7 @@
             <h1 class="text-primary-500 text-3xl tracking-small text-center card-header">
                 Express: Polar
             </h1>
-            <h2 class="text-secondary-400 card-header">Solo Developer</h2>
+            <h2 class="text-secondary-400 card-header text-center">Solo Developer</h2>
             <p class="text-secondary-200 text-lg tracking-small pt-1 card-header">
                 I was the first-place winner in the MU Design Competition and my project was featured
                 in the Miami Game Design Senior Project Fair. It's a UE5 multiplayer game created with

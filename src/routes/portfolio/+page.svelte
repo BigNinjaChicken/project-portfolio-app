@@ -27,7 +27,7 @@
 	// Define an array of project data
 	let projects = [
 		{
-			title: 'McVey Datascience Building XR Opening',
+			title: 'Datascience XR Grand Opening',
 			role: 'Unreal Engineer & XR Live Crew',
 			date: 'March 14, 2024',
 			location: 'College/MGDC',

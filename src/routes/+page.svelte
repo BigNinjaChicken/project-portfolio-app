@@ -4,6 +4,7 @@
 	import FeatureCard_1 from './Feature-Card-1.svelte';
 	import FeatureCard_2 from './Feature-Card-2.svelte';
 	import FeatureCard_3 from './Feature-Card-3.svelte';
+	import FeatureCard_4 from './Feature-Card-4.svelte';
 
 	const autoplayOptions = {
 		delay: 3000,
@@ -94,7 +95,7 @@
 	<div class="container mx-auto py-10">
 		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
 			<FeatureCard_1 />
-			<FeatureCard_2 />
+			<FeatureCard_4 />
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-5 mt-5">
 			<FeatureCard_3 />

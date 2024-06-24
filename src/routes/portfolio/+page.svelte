@@ -22,9 +22,19 @@
 	import Site from '$lib/portfolio/this-site.png';
 	import Laughter from '$lib/portfolio/laughter-main.png';
 	import xr4 from '$lib/portfolio/xr4.jpg';
+	import progress from '$lib/portfolio/progress-book.png';
 	
 	// Define an array of project data
 	let projects = [
+		{
+			title: '2024 Miami Univerity Project Book',
+			role: 'Senior Design Project',
+			date: '2024',
+			location: 'College/MGDC',
+            href: "/portfolio/feature-5",
+			description: 'This book displays all of the projects that my senior design team at Miami Univeristy brought to life at our local XR stage.',
+			image: progress
+		},
 		{
 			title: 'Datascience XR Grand Opening',
 			role: 'Unreal Engineer & XR Live Crew',
